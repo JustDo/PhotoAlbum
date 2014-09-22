@@ -16,7 +16,6 @@
 		0F06459E1980F16E0058AE18 /* overlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F06459C1980F16E0058AE18 /* overlay@2x.png */; };
 		0F0645A11980FD8B0058AE18 /* TTAssetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0645A01980FD8B0058AE18 /* TTAssetView.m */; };
 		0F0645A4198109080058AE18 /* AlumNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0645A3198109080058AE18 /* AlumNavigationController.m */; };
-		0F939AFB19D01B9C00D0DD3A /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F939AFA19D01B9C00D0DD3A /* ShowViewController.m */; };
 		0FCCDCDF1988D4220037B562 /* CustomViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCCDCDD1988D4220037B562 /* CustomViewCell.m */; };
 		0FCCDCE01988D4220037B562 /* CustomViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCCDCDE1988D4220037B562 /* CustomViewCell.xib */; };
 		0FCCDCE31988D5260037B562 /* AssetViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCCDCE21988D5260037B562 /* AssetViewCell.m */; };
@@ -66,8 +65,6 @@
 		0F0645A01980FD8B0058AE18 /* TTAssetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAssetView.m; sourceTree = "<group>"; };
 		0F0645A2198109080058AE18 /* AlumNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlumNavigationController.h; sourceTree = "<group>"; };
 		0F0645A3198109080058AE18 /* AlumNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlumNavigationController.m; sourceTree = "<group>"; };
-		0F939AF919D01B9C00D0DD3A /* ShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowViewController.h; sourceTree = "<group>"; };
-		0F939AFA19D01B9C00D0DD3A /* ShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowViewController.m; sourceTree = "<group>"; };
 		0FCCDCDC1988D4220037B562 /* CustomViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewCell.h; sourceTree = "<group>"; };
 		0FCCDCDD1988D4220037B562 /* CustomViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewCell.m; sourceTree = "<group>"; };
 		0FCCDCDE1988D4220037B562 /* CustomViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomViewCell.xib; sourceTree = "<group>"; };
@@ -132,8 +129,6 @@
 			children = (
 				0FF499CC19814F4C00891444 /* LoadXibUtils.h */,
 				0FF499CD19814F4C00891444 /* LoadXibUtils.m */,
-				0F939AF919D01B9C00D0DD3A /* ShowViewController.h */,
-				0F939AFA19D01B9C00D0DD3A /* ShowViewController.m */,
 				0FE3A14D197FFFCC009BF0AD /* AppDelegate.h */,
 				0FE3A14E197FFFCC009BF0AD /* AppDelegate.m */,
 				0FE3A144197FFFCC009BF0AD /* PhotoAlbum */,
@@ -380,7 +375,6 @@
 				0FE3A14B197FFFCC009BF0AD /* main.m in Sources */,
 				0FF499CE19814F4C00891444 /* LoadXibUtils.m in Sources */,
 				0F0645A4198109080058AE18 /* AlumNavigationController.m in Sources */,
-				0F939AFB19D01B9C00D0DD3A /* ShowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
